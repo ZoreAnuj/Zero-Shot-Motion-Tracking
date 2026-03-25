@@ -23,16 +23,19 @@ All motions generated from text prompts by Kimodo, then physically simulated wit
 <td align="center"><b>Walking Forward</b></td>
 <td align="center"><b>Waving Hands</b></td>
 <td align="center"><b>Squats</b></td>
+<td align="center"><b>Turning Around</b></td>
 </tr>
 <tr>
-<td align="center"><img src="samples/walking_forward.gif" width="280"></td>
-<td align="center"><img src="samples/waving_hands.gif" width="280"></td>
-<td align="center"><img src="samples/squats.gif" width="280"></td>
+<td align="center"><img src="samples/walking_forward.gif" width="220"></td>
+<td align="center"><img src="samples/waving_hands.gif" width="220"></td>
+<td align="center"><img src="samples/squats.gif" width="220"></td>
+<td align="center"><img src="samples/turning_around.gif" width="220"></td>
 </tr>
 <tr>
 <td align="center"><code>"a person walking forward"</code></td>
 <td align="center"><code>"a person waving their hands"</code></td>
 <td align="center"><code>"a person doing squats"</code></td>
+<td align="center"><code>"a person turning around slowly"</code></td>
 </tr>
 </table>
 
