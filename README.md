@@ -1,17 +1,37 @@
 # Zero-Shot Motion Tracking for Unitree G1
 
+> **Text-to-Physics in one command**: Type a motion description, get a physically-simulated humanoid robot performing it — no training required.
+
 A streamlined pipeline that takes a **text prompt**, generates a motion with [Kimodo](https://github.com/nv-tlabs/kimodo), and runs a physics-simulated **Unitree G1 humanoid robot** tracking that motion in MuJoCo — all **zero-shot, with no training required**.
 
 The pipeline uses NVIDIA's [ProtoMotions](https://github.com/NVlabs/ProtoMotions) pretrained **Generalist Tracking Policy (GTP)**, exported as an ONNX model, to drive PD joint controllers in a full MuJoCo physics simulation with gravity, contacts, and actuator dynamics.
 
+### Highlights
+
+- **Zero-shot**: No per-motion training. A single pretrained policy tracks any motion.
+- **Text-to-physics**: Describe a motion in natural language, watch a robot perform it with real physics.
+- **Full physics simulation**: Gravity, ground contacts, 29 PD-controlled actuators at 1kHz.
+- **Fast**: Motion generation (~2s on GPU) + physics sim runs at 20x real-time.
+- **Self-contained**: All assets (ONNX model, G1 MJCF, meshes) bundled. Just `pip install` and run.
+
 ## Demo Videos
 
-| Walking Forward | Waving Hands | Squats |
-|:-:|:-:|:-:|
-| <video src="https://github.com/ZoreAnuj/Zero-Shot-Motion-Tracking/raw/main/samples/walking_forward.mp4" width="280"> | <video src="https://github.com/ZoreAnuj/Zero-Shot-Motion-Tracking/raw/main/samples/waving_hands.mp4" width="280"> | <video src="https://github.com/ZoreAnuj/Zero-Shot-Motion-Tracking/raw/main/samples/squats.mp4" width="280"> |
-| `"a person walking forward"` | `"a person waving their hands"` | `"a person doing squats"` |
+All motions below were generated from text prompts by Kimodo, then physically simulated with the ProtoMotions GTP in MuJoCo (full physics: gravity, contacts, PD actuators).
 
-> All motions generated from text prompts by Kimodo, then physically simulated with ProtoMotions GTP in MuJoCo.
+### Walking Forward
+> Prompt: `"a person walking forward"`
+
+https://github.com/ZoreAnuj/Zero-Shot-Motion-Tracking/raw/main/samples/walking_forward.mp4
+
+### Waving Hands
+> Prompt: `"a person waving their hands"`
+
+https://github.com/ZoreAnuj/Zero-Shot-Motion-Tracking/raw/main/samples/waving_hands.mp4
+
+### Squats
+> Prompt: `"a person doing squats"`
+
+https://github.com/ZoreAnuj/Zero-Shot-Motion-Tracking/raw/main/samples/squats.mp4
 
 ## How It Works
 
