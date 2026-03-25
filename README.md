@@ -20,22 +20,20 @@ All motions generated from text prompts by Kimodo, then physically simulated wit
 
 <table>
 <tr>
-<td align="center"><b>Walking Forward</b></td>
-<td align="center"><b>Waving Hands</b></td>
-<td align="center"><b>Squats</b></td>
-<td align="center"><b>Turning Around</b></td>
+<td align="center"><img src="samples/confident_walk.gif" width="420"><br><b>Confident Walk</b><br><code>"a person walking forward with long confident strides while swinging their arms"</code></td>
+<td align="center"><img src="samples/boxing.gif" width="420"><br><b>Boxing</b><br><code>"a person throwing left and right punches while stepping forward in a boxing stance"</code></td>
 </tr>
 <tr>
-<td align="center"><img src="samples/walking_forward.gif" width="220"></td>
-<td align="center"><img src="samples/waving_hands.gif" width="220"></td>
-<td align="center"><img src="samples/squats.gif" width="220"></td>
-<td align="center"><img src="samples/turning_around.gif" width="220"></td>
+<td align="center"><img src="samples/arms_raise.gif" width="420"><br><b>Arms Raise</b><br><code>"a person standing in place and raising both arms above their head then lowering them"</code></td>
+<td align="center"><img src="samples/bowing.gif" width="420"><br><b>Bowing</b><br><code>"a person bowing forward politely and then standing upright again"</code></td>
 </tr>
 <tr>
-<td align="center"><code>"a person walking forward"</code></td>
-<td align="center"><code>"a person waving their hands"</code></td>
-<td align="center"><code>"a person doing squats"</code></td>
-<td align="center"><code>"a person turning around slowly"</code></td>
+<td align="center"><img src="samples/side_step.gif" width="420"><br><b>Side Step</b><br><code>"a person stepping sideways to the left and then sideways to the right"</code></td>
+<td align="center"><img src="samples/squats.gif" width="420"><br><b>Squats</b><br><code>"a person doing squats"</code></td>
+</tr>
+<tr>
+<td align="center"><img src="samples/walking_forward.gif" width="420"><br><b>Walking Forward</b><br><code>"a person walking forward"</code></td>
+<td align="center"><img src="samples/turning_around.gif" width="420"><br><b>Turning Around</b><br><code>"a person turning around slowly"</code></td>
 </tr>
 </table>
 
