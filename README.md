@@ -14,24 +14,27 @@ The pipeline uses NVIDIA's [ProtoMotions](https://github.com/NVlabs/ProtoMotions
 - **Fast**: Motion generation (~2s on GPU) + physics sim runs at 20x real-time.
 - **Self-contained**: All assets (ONNX model, G1 MJCF, meshes) bundled. Just `pip install` and run.
 
-## Demo Videos
+## Demo
 
-All motions below were generated from text prompts by Kimodo, then physically simulated with the ProtoMotions GTP in MuJoCo (full physics: gravity, contacts, PD actuators).
+All motions generated from text prompts by Kimodo, then physically simulated with ProtoMotions GTP in MuJoCo (full physics: gravity, contacts, PD actuators).
 
-### Walking Forward
-> Prompt: `"a person walking forward"`
-
-https://github.com/ZoreAnuj/Zero-Shot-Motion-Tracking/raw/main/samples/walking_forward.mp4
-
-### Waving Hands
-> Prompt: `"a person waving their hands"`
-
-https://github.com/ZoreAnuj/Zero-Shot-Motion-Tracking/raw/main/samples/waving_hands.mp4
-
-### Squats
-> Prompt: `"a person doing squats"`
-
-https://github.com/ZoreAnuj/Zero-Shot-Motion-Tracking/raw/main/samples/squats.mp4
+<table>
+<tr>
+<td align="center"><b>Walking Forward</b></td>
+<td align="center"><b>Waving Hands</b></td>
+<td align="center"><b>Squats</b></td>
+</tr>
+<tr>
+<td align="center"><img src="samples/walking_forward.gif" width="280"></td>
+<td align="center"><img src="samples/waving_hands.gif" width="280"></td>
+<td align="center"><img src="samples/squats.gif" width="280"></td>
+</tr>
+<tr>
+<td align="center"><code>"a person walking forward"</code></td>
+<td align="center"><code>"a person waving their hands"</code></td>
+<td align="center"><code>"a person doing squats"</code></td>
+</tr>
+</table>
 
 ## How It Works
 
