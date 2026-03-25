@@ -1,0 +1,8 @@
+mujoco>=3.0
+onnxruntime>=1.16
+pyyaml
+numpy
+torch>=2.0
+viser
+imageio[ffmpeg]
+mediapy
